@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -8,24 +7,53 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    
+    margin-right: 50px;
+    padding-left: 100px;
+}
+h1{
+    font-size: 40px;
+    color: #7a1755;
 }
 
-h1, h2, h3 {
+h4{
+    font-size: 55px;
+    color: #7a1755;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
     font-weight: bold;
-    color: #222;
+    color: #7a1755;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+h3 {
+    font-weight: bold;
+    color: #7a1755;
     margin-bottom: 10px;
 }
 
 p {
     line-height: 1.6;
     margin-bottom: 15px;
+    color: #7a1755;
+    
 }
-
+.bold{
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.subtitle{
+    color: #7a1755;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    
+}
 .btn {
-    background-color: #673AB7;
+    background-color: #7a1755;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -34,9 +62,7 @@ p {
     transition: background-color 0.3s;
 }
 
-.btn:hover {
-    background-color: #512DA8;
-}
+
 
 /* Header Styles */
 header {
@@ -49,12 +75,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
-    color: #673AB7;
+    font-weight: bolder;
+    color: #7a1755;
     text-decoration: none;
 }
 
@@ -74,11 +102,9 @@ nav a {
     color: #333;
     font-weight: bold;
     transition: color 0.3s;
+    color: #7a1755;
 }
 
-nav a:hover {
-    color: #673AB7;
-}
 
 .hero {
     display: flex;
@@ -90,23 +116,27 @@ nav a:hover {
 
 .hero-content {
     flex: 1;
-    padding-right: 30px;
+    
 }
 
 .hero-image {
     flex: 1;
-    text-align: center;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-image img {
     width: 100%;
-    max-width: 500px;
+    height: 600px;
+    
 }
 
 .search-bar {
     display: flex;
-    align-items: center;
+    
     margin-top: 20px;
+    flex-direction: column;
 }
 
 .search-bar select {
@@ -114,21 +144,23 @@ nav a:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-right: 10px;
+    width: 550px;
 }
 
 .search-bar button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #673AB7;
+    background-color: #7a1755;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-top: 10px;
+    width: 130px;
+    font-weight: bolder;
 }
 
-.search-bar button:hover {
-    background-color: #512DA8;
-}
+
 
 /* Destinations Styles */
 .destinations {
@@ -139,28 +171,25 @@ nav a:hover {
 .destination-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 70px;
 }
 
-.destination-card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-}
+
 
 .destination-card img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    
+    
 }
 
 /* Contact Styles */
 .contact {
     padding: 80px 0;
     background-color: #fff;
+    text-align: center;
+    
 }
 
 .contact form {
@@ -170,6 +199,7 @@ nav a:hover {
 
 .form-group {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .form-group label {
@@ -190,10 +220,14 @@ nav a:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+}
+.alignment{
+    font-size: larger;
+    
+    font-weight: bold;
 }
 
 /* Responsive Styles */
