@@ -112,7 +112,7 @@ nav a {
     align-items: center;
     padding: 80px 0;
     background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    
     margin: 0;
 }
 
@@ -216,7 +216,7 @@ nav a {
 .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
+    
     border-radius: 5px;
     box-sizing: border-box;
 }
